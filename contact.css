@@ -1,0 +1,125 @@
+.navbar-brand{
+    font-family: Hometown;
+    
+}
+/* Overlay flou pour le background */
+/* Overlay flou pour le background */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: url("image/bois.jpg") no-repeat center center;
+    background-size: cover;
+    filter: blur(10px);
+    z-index: -1; /* derrière tout */
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+    
+/* footer */
+.footer {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+.footer {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+
+.footer-link {
+    color: #f8f9fa;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    color: #0d6efd;
+}
+/* Effet flou derrière la navbar */
+.navbar {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+html, body {
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+/* Carte de contact */
+.contact-card {
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 20px;
+    color: #fff;
+    transition: all 0.4s ease;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* Animation au survol */
+.contact-card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
+
+/* Boutons contact */
+.contact-btn {
+    padding: 12px 22px;
+    border-radius: 50px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+}
+
+/* WhatsApp */
+.contact-btn.whatsapp {
+    background: #25D366;
+}
+
+.contact-btn.whatsapp:hover {
+    background: #1ebe5d;
+    transform: scale(1.1);
+}
+
+/* Gmail */
+.contact-btn.gmail {
+    background: #EA4335;
+}
+
+.contact-btn.gmail:hover {
+    background: #c8372b;
+    transform: scale(1.1);
+}
+
+
+/* Icônes */
+.contact-btn i {
+    font-size: 1.3rem;
+}
+.contact-center {
+    flex: 1; /* prend l’espace entre navbar et footer */
+    display: flex;
+    align-items: center;    /* centrage vertical */
+    justify-content: center; /* centrage horizontal */
+    padding: 20px;
+}

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Produits de luxe</title>
+<link rel="stylesheet" href="article.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+ rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body style="padding-top:80px;">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark bg-opacity-25">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Edisong House</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="Acceuil.html">Acceuil</a></li>
+        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Article</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+      <form class="d-flex" id="searchForm">
+        <input id="searchInput" class="form-control me-2" type="search" placeholder="Search">
+        <button class="btn btn-outline-success" type="button" id="searchBtn">
+          Search
+        </button>
+        
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="hero-overlay"></div>
+  <div class="container">
+    <h1>Nos produits de luxe</h1>
+  </div>
+</section>
+
+<!-- CARTES ARTICLES -->
+<section class="py-5">
+  <div class="container">
+    <div class="row justify-content-center g-4">
+
+      <!-- 5 Voitures -->
+      <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+        <div class="article-card" data-category="voiture">
+          <div class="article-image"><img src="uploads/voiture1.jpg" alt="Voiture de luxe"></div>
+          <div class="article-text">SUV laris croft</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+        <div class="article-card" data-category="voiture">
+          <div class="article-image"><img src="uploads/voiture2.jpg" alt="Voiture de luxe"></div>
+          <div class="article-text">Bugatti Chiron New model</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+        <div class="article-card" data-category="voiture">
+          <div class="article-image"><img src="uploads/voiture3.jpg" alt="Voiture de luxe"></div>
+          <div class="article-text">Voiture de luxe</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+        <div class="article-card" data-category="voiture">
+          <div class="article-image"><img src="uploads/voiture4.jpg" alt="Voiture de luxe"></div>
+          <div class="article-text">Bugatti</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+        <div class="article-card" data-category="voiture">
+          <div class="article-image"><img src="uploads/voiture5.jpg" alt="Voiture de luxe"></div>
+          <div class="article-text">Contactez nous dès votre choix effectué</div>
+        </div>
+      </div>
+
+      <!-- 5 Montres -->
+      <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+        <div class="article-card" data-category="montre">
+          <div class="article-image"><img src="uploads/montre1.jpg" alt="Montre de luxe"></div>
+          <div class="article-text">Montres vintage / steampunk style Classique</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+        <div class="article-card" data-category="montre">
+          <div class="article-image"><img src="uploads/montre2.jpg" alt="Montre de luxe"></div>
+          <div class="article-text">Montre Royal TUDOR</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+        <div class="article-card" data-category="montre">
+          <div class="article-image"><img src="uploads/montre3.jpg" alt="Montre de luxe"></div>
+          <div class="article-text">Montres vintage / steampunk avec chiffres romains & mécanisme visible</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+        <div class="article-card" data-category="montre">
+          <div class="article-image"><img src="uploads/montre4.jpg" alt="Montre de luxe"></div>
+          <div class="article-text">Apple Watch 10</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+        <div class="article-card" data-category="montre">
+          <div class="article-image"><img src="uploads/montre5.jpg" alt="Montre de luxe"></div>
+          <div class="article-text">Montres vintage / steampunk style Classique</div>
+        </div>
+      </div>
+
+      <!-- 5 iPhone -->
+      <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+        <div class="article-card" data-category="iphone">
+          <div class="article-image"><img src="uploads/iphone1.jpg" alt="iPhone"></div>
+          <div class="article-text">Tout vos iPhones disponibles</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+        <div class="article-card" data-category="iphone">
+          <div class="article-image"><img src="uploads/iphone2.jpg" alt="iPhone"></div>
+          <div class="article-text">iPhone 16 et 16 Pro</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+        <div class="article-card" data-category="iphone">
+          <div class="article-image"><img src="uploads/iphone3.jpg" alt="iPhone"></div>
+          <div class="article-text">iPhone 15 Plus</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+        <div class="article-card" data-category="iphone">
+          <div class="article-image"><img src="uploads/iphone4.jpg" alt="iPhone"></div>
+          <div class="article-text">iPhone 14, 14 Pro, 15, 15 pro</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+        <div class="article-card" data-category="iphone">
+          <div class="article-image"><img src="uploads/iphone5.JPG" alt="iPhone"></div>
+          <div class="article-text">iPhone 15 Promax</div>
+        </div>
+      </div>
+
+      <!-- 5 MacBook -->
+      <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+        <div class="article-card" data-category="macbook">
+          <div class="article-image"><img src="uploads/macbook1.jpg" alt="MacBook"></div>
+          <div class="article-text">MacBook Air 2020</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+        <div class="article-card" data-category="macbook">
+          <div class="article-image"><img src="uploads/macbook2.JPG" alt="MacBook"></div>
+          <div class="article-text">MacBook Pro M1 2020 8GB</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+        <div class="article-card" data-category="macbook">
+          <div class="article-image"><img src="uploads/macbook3.jpg" alt="MacBook"></div>
+          <div class="article-text">MacBook Pro 2019 16GB</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+        <div class="article-card" data-category="macbook">
+          <div class="article-image"><img src="uploads/macbook4.jpg" alt="MacBook"></div>
+          <div class="article-text">MacBook Pro M1 2021</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+        <div class="article-card" data-category="macbook">
+          <div class="article-image"><img src="uploads/macbook5.jpg" alt="MacBook"></div>
+          <div class="article-text">MacBook Pro M4 2024 16GB</div>
+        </div>
+      </div>
+
+      <!-- 5 Bois -->
+      <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+        <div class="article-card" data-category="bois">
+          <div class="article-image"><img src="uploads/bois1.jpg" alt="Bois de cheminée"></div>
+          <div class="article-text">Bois de cheminée Dur légère Combustion</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+        <div class="article-card" data-category="bois">
+          <div class="article-image"><img src="uploads/bois2.jpg" alt="Bois de cheminée"></div>
+          <div class="article-text">Bois de cheminée tendre Parfumée</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+        <div class="article-card" data-category="bois">
+          <div class="article-image"><img src="uploads/bois3.jpg" alt="Bois de cheminée"></div>
+          <div class="article-text">Bois de cheminée tendre</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+        <div class="article-card" data-category="bois">
+          <div class="article-image"><img src="uploads/bois4.jpg" alt="Bois de cheminée"></div>
+          <div class="article-text">Bois de cheminée Spéciaux Iroko</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+        <div class="article-card" data-category="bois">
+          <div class="article-image"><img src="uploads/bois5.jpg" alt="Bois de cheminée"></div>
+          <div class="article-text">Bois de cheminée spéciaux Acacia</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="footer mt-auto bg-dark bg-opacity-25 text-light">
+    <div class="container text-center py-4">
+        <p class="mb-1 fw-semibold">© 2026 Edisong House</p>
+        <p class="mb-0">
+            <a href="Acceuil.html" class="footer-link">Accueil</a> ·
+            <a href="article.html" class="footer-link">Articles</a> ·
+            <a href="contact.html" class="footer-link">Contact</a>
+        </p>
+    </div>
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="articles.js"></script>
+</body>
+</html>
